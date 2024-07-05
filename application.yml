@@ -4,3 +4,9 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+microservice:
+  ticket-service:
+    endpoints:
+      endpoint:
+        uri: http://localhost:8084/api/v1/ticket/
