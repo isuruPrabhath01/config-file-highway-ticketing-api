@@ -22,3 +22,6 @@ spring:
             uri: lb://payment-service
             predicates:
               - Path=/api/v1/payment/**
+
+server:
+  port: 8081
