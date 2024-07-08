@@ -12,3 +12,6 @@ microservice:
     endpoints:
       endpoint:
         uri: http://localhost:8084/api/v1/ticket/
+
+prop:
+   val: hello world
